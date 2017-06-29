@@ -1,0 +1,161 @@
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+
+ol {
+
+	display: block;
+    display: block;
+    list-style-type: none;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 10px;
+}
+
+table {
+	border: solid 3px black;
+}
+th {
+	border: 1px solid gray;
+	background-color: #42C9B7;
+	
+}
+.tableBlocks {
+	background-color: rgba(230, 230, 230,0.5);
+}
+
+body {
+	
+	font-family: 'BenchNine', sans-serif;
+	background: url("http://i.imgur.com/JmNduZd.jpg?1") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a:link, a:visited  {
+	color: #42C9B7;
+	text-decoration: none;
+}
+a#headerImg:hover {
+    background-color: transparent;
+}
+
+a:hover {
+	color: white;
+	background-color: #42C9B7;
+}
+
+input[type=submit] {
+	background-color: #42C9B7;
+	border: white;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+}
+img {
+	
+	margin: auto;
+	vertical-align: middle;
+}
+
+.select-boxes {
+	width: 150px;
+	height: 34px;
+	overflow: hidden;
+	background: url(down_arrow.jpg) no-repeat right #ddd;
+	border: 2px solid #42C9B7;
+}
+
+.select-boxes select {
+	background: transparent;
+	width: 175px;
+	padding: 5px;
+	font-size: 12px;
+	line-height: 1;
+	height: 34px;
+	-webkit-appearance: none;
+}
+
+
+.center {
+	text-align: left;
+	list-style-position: inside;
+}
+
+
+
+.wrapper {
+	min-width: 800px;
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	height: auto;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 100px;
+	background: rgba(255,255,255,0.75);
+	padding: 25px 25px 0px 30px;
+	margin: auto;
+	border-bottom: solid 10px #42C9B7;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	position: relative;
+	background: rgba(255,255,255,0.75);
+	
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+#OuterContainer {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	
+}
+.content {
+	padding: 0 0 0 225px;
+}
+
+.rightColumn {
+	float: right;
+	width: 50%;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 175px;
+	margin-left: -100%;
+	padding: 0 0 0 10px;
+	position: relative;
+	border-right: solid 5px #42C9B7;
+	border-bottom: solid 5px #42C9B7;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 100px;
+}
